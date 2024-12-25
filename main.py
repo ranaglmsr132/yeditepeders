@@ -6,7 +6,7 @@ else:
 age=int(input("yasınız nedir?"))
 if 20<age<50:
   print("einstellen")
-  
+  ///
 note=float(input("notunuz"))
 deneyim=int(input("deneyiminiz"))
 if note>90:
