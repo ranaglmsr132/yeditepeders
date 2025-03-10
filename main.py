@@ -1,60 +1,31 @@
-note=float(input("notunuz nedir?"))
-if note<80:
-  print("ablehnen")
-else:
-  print("başarılı")
-age=int(input("yasınız nedir?"))
-if 20<age<50:
-  print("einstellen")
-  ///
-note=float(input("notunuz"))
-deneyim=int(input("deneyiminiz"))
-if note>90:
-  print("alındı")
-elif deneyim==5 and note==70:
-  print("alındınız")
-if note>70:
-  print("mulakat")
-elif deneyim>4:
-  print("mulakat")
-else:
-  print("reddedildinmiz")
+def add(num1,num2):
+  print(num1+num2)
   
+def sub(num1,num2):
+  print(num1-num2)
+  
+def mul(num1,num2):
+  print(num1*num2)
+  
+def div(num1,num2):
+  print(num1/num2)
 
+while True:
+ operator=input("İşlemi seçiniz: ")
+ num1=float(input("Lütfen İlk Sayınızı Giriniz: "))
+ num2=float(input("Lütfen İkinci Sayınızı Giriniz: "))
+ 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ if operator=="+":
+   add(num1,num2)
+ elif operator=="-":
+   sub(num1,num2)
+ elif operator=="*":
+   mul(num1,num2)
+ elif operator=="/":
+   div(num1,num2)
+ else:
+   print("Tekrar Deneyin")
 
 
 
